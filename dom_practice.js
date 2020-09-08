@@ -29,3 +29,9 @@ document.querySelector('body').appendChild(imgAtt);
 for (let i = 0; i < allLi.length; i++) {
     allLi[i].style.color = '#B22222';
 }
+
+//8
+let variableP = document.querySelector('p');
+
+//9 
+variableP.remove();
