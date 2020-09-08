@@ -15,3 +15,7 @@ console.log(classArray);
 //5
 let oneLi = document.querySelector('li');
 oneLi.style.color = '#FA8072';
+
+//6
+let allLi = document.querySelectorAll('li');
+allLi[1].innerText = 'Jamboree sandwich at the Jambo-ree';
