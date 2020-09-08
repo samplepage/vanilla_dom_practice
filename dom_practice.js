@@ -34,4 +34,4 @@ for (let i = 0; i < allLi.length; i++) {
 let variableP = document.querySelector('p');
 
 //9 
-variableP.remove();
+//variableP.remove();
