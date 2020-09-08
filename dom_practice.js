@@ -7,3 +7,7 @@ console.log(headerVariable);
 
 //3
 headerVariable.innerText = 'Welcome to Raleigh!!!';
+
+//4
+let classArray = document.querySelectorAll('.class');
+console.log(classArray);
