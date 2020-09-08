@@ -19,3 +19,8 @@ oneLi.style.color = '#FA8072';
 //6
 let allLi = document.querySelectorAll('li');
 allLi[1].innerText = 'Jamboree sandwich at the Jambo-ree';
+
+//7
+let imgAtt = document.createElement('img');
+imgAtt.setAttribute('src', 'IMG_0217.jpg');
+document.querySelector('body').appendChild(imgAtt);
