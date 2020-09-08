@@ -24,3 +24,8 @@ allLi[1].innerText = 'Jamboree sandwich at the Jambo-ree';
 let imgAtt = document.createElement('img');
 imgAtt.setAttribute('src', 'IMG_0217.jpg');
 document.querySelector('body').appendChild(imgAtt);
+
+//bonus
+for (let i = 0; i < allLi.length; i++) {
+    allLi[i].style.color = '#B22222';
+}
